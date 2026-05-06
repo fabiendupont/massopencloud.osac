@@ -1,0 +1,11 @@
+name: massopencloud-osac
+display_name: Mass Open Cloud (ESI)
+description: ESI bare-metal and networking integration for OSAC
+version: 0.1.0
+dependencies:
+  osac_core: ">=0.1.0"
+resource_types:
+  - name: ComputeInstance
+    scope: tenant
+  - name: Cluster
+    scope: tenant
